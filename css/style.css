@@ -158,3 +158,145 @@ hr {
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 }
+span {
+    font-size: medium;
+}
+
+button {
+    border-radius: 40px;
+    width: 6vw;
+    height: 6vh;
+    color: white;
+    border-color: white;
+    font-weight: 600;
+    font-size: small;
+    background-color: #52454A;
+}
+
+.Secsm-contain {
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40vh;
+    animation: blinkColors 5s linear infinite;
+}
+@keyframes blinkColors {
+    0% {
+        color: #ffffff;
+        text-shadow: 0 0 5px #fff;
+    }
+
+    25% {
+        color: #ff4081;
+        text-shadow: 0 0 8px #ff4081;
+    }
+
+    50% {
+        color: #40c4ff;
+        text-shadow: 0 0 8px #40c4ff;
+    }
+
+    75% {
+        color: #69f0ae;
+        text-shadow: 0 0 8px #69f0ae;
+    }
+
+    100% {
+        color: #ffffff;
+        text-shadow: 0 0 5px #fff;
+    }
+}
+
+.Secsm-contain h2 {
+    font-size: 40px;
+    padding-left: 15vh;
+    margin-top: 10px;
+}
+
+.line {
+    display: inline-block;
+    width: 3px;
+    height: 7vh;
+    background-color: white;
+    vertical-align: middle;
+}
+
+.but {
+    background-color: #3A3A3B;
+}
+
+.to-contain {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+.sm-total {
+    height: 35vh;
+    width: 13vw;
+    margin-top: 3vh;
+}
+.sm-total:hover {
+    transition: .3s;
+    scale: 0.8;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: x-large;
+    font-family: "Roboto", sans-serif;
+    justify-self: center;
+    margin-top: 5vh;
+}
+
+.bg3 {
+    background-image: url(../img/fri-bg2.jpg);
+    display: flex;
+    margin-bottom: 5vh;
+    margin-top: 15vh;
+
+}
+
+#Ai {
+    justify-items: right;
+    padding-top: 15vh;
+    padding-right: 3vw;
+
+}
+
+#total-frige h3 {
+    justify-self: center;
+}
+
+.Latest {
+    font-size: 40px;
+    display: flex;
+    justify-self: left;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    font-family: "Roboto", sans-serif;
+    animation: blinkColors 5s linear infinite;
+    color: black;
+    cursor: pointer;
+}
+
+#total-product h4 {
+    justify-self: center;
+    font-size: large;
+}
+
+#total-product h4:hover {
+    color: red;
+}
+
+.whole {
+    cursor: pointer;
+
+}
+
+
+
+
