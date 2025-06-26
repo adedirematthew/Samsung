@@ -114,3 +114,47 @@ ul {
     color: black;
 }
 
+.icon {
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 2vw;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.Faf {
+    font-size: xx-large;
+}
+
+
+.sm-contain {
+    margin-top: 250px;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.sm-contain :hover {
+    cursor: pointer;
+}
+
+hr {
+    width: 5vw;
+}
+
+.sm-contain h2 {
+    font-size: xx-large;
+    margin-top: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
