@@ -297,6 +297,43 @@ h3 {
 
 }
 
+.footer {
+    background-color: #f0f0f067;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8vh;
+    cursor: pointer;
+}
 
+.footer-column {
+    margin-left: 3vw;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+
+.footer-column ul li {
+    margin-bottom: 3vh;
+}
+
+.footer-column ul li:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+footer {
+    color: rebeccapurple;
+    font-size: 14px;
+    margin-left: 3vw;
+}
+
+.about {
+    padding-top: 5vh;
+}
 
 
