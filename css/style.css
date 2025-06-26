@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.068);
+    height: 100%;
+    width: 100%;
+}
+
+.top-container {
+    height: 100vh;
+    width: 100%;
+    background-position: 50%;
+    background-size: cover;
+    margin-bottom: 5px;
+
+}
