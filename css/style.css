@@ -26,3 +26,28 @@ ul {
     margin-bottom: 5px;
 
 }
+
+.bg1 {
+    background-image: url(../img/elegant-smartphone-composition.jpg);
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 3vh;
+}
+
+.bg2 {
+    background-image: url(../img/triple-camera-black-smartphone-concept-mockup_1017-19784.avif);
+    margin-bottom: 3vh;
+}
+
+.nav {
+    height: 106px;
+    width: 100%;
+
+}
+
+.box1 {
+    height: 30%;
+    width: 100%;
+    padding: 0 10px;
+    color: white;
+}
