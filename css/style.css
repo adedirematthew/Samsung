@@ -51,3 +51,66 @@ ul {
     padding: 0 10px;
     color: white;
 }
+.sbox1 {
+    height: 100%;
+    width: 11%;
+    color: white;
+    justify-items: center;
+    align-content: center;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sbox1 :hover {
+    cursor: pointer;
+    color: black;
+}
+
+.sbox2 {
+    height: 100%;
+    width: 69%;
+}
+
+.sbox2 ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 100%;
+    font-weight: 600;
+    font-size: medium;
+    font-family: "Roboto", sans-serif;
+}
+
+.sbox2 ul :hover {
+    cursor: pointer;
+    color: black;
+}
+
+.input-container {
+    position: relative;
+    width: 10vw;
+    font-size: x-large;
+}
+
+.input {
+    width: 100%;
+    padding: 1vw;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    font-size: large;
+}
+
+.input-container i {
+    position: absolute;
+    right: 1vw;
+    top: 30%;
+    color: gray;
+}
+
+#input:hover {
+    background-color: #D3C5E5;
+    color: black;
+}
+
